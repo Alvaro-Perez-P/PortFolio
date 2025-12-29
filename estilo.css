@@ -1,0 +1,64 @@
+/* transición suave */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* MODO NOCHE */
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+/* NAVBAR modo noche */
+.dark-mode .navbar {
+  background-color: #1c1c1c !important;
+}
+.dark-mode .navbar-toggler {
+  border-color: #f1f1f1;
+  background-color: #f1f1f1;
+
+}
+
+/* Texto del navbar */
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+  color: #f1f1f1 !important;
+}
+
+/* Link activo */
+.dark-mode .nav-link.active {
+  color: #f1f1f1 !important;
+}
+
+/* Hover */
+.dark-mode .nav-link:hover {
+  color: #9ecbff !important;
+}
+/* containers */
+.dark-mode .container,
+.dark-mode .container-fluid {
+  background-color: #1e1e1e !important;
+}
+
+/* navbar */
+.dark-mode .navbar {
+  background-color: #1c1c1c !important;
+}
+
+/* cards */
+.dark-mode .card {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+/* accordion */
+.dark-mode .accordion-button {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+/* footer */
+.dark-mode .footer {
+  background-color: #000;
+}
+
+
